@@ -6,9 +6,10 @@ def initialize(word)
 end
 
 def match(word)
-@word.each do |word|
-word.split(" ")
-  end
+letter_array = @word.split(" ")
+
+#if letter_array.sort == word.sort
+  #end
 end
 
 end
