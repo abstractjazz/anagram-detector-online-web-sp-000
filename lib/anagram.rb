@@ -8,8 +8,7 @@ def initialize(word)
 end
 
 def match(word_array)
-word_array.select do |word|
-word.split("") == @word(" ").split
+word_array.select {|word| word.split("") == @word(" ").split}
     end
   end
 end
