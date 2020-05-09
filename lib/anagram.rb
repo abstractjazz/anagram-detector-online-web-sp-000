@@ -6,7 +6,7 @@ def initialize(word)
 end
 
 def self.match
-letter_array = self.split(" ")
+@word = self.split(" ")
 #if letter_array.sort == word.sort
   #end
   letter_array
