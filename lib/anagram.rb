@@ -8,7 +8,7 @@ def initialize(word)
 end
 
 def match(word)
-word.each do |word|
+word.detect do |word|
 if word.split(" ").sort == @word.split.sort
   true
 else
@@ -19,7 +19,7 @@ else
 # end
     end
   end
-end 
+end
 
 end
 
