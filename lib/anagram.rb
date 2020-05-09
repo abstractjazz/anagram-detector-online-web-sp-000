@@ -9,8 +9,8 @@ def self.match(word)
 letter_array = self.split(" ")
 #if letter_array.sort == word.sort
   #end
+  letter_array
 end
-letter_array
 end
 
 
