@@ -9,8 +9,8 @@ def match(word)
 word = @word.split(" ")
 #if letter_array.sort == word.sort
   #end
-  letter_array
 end
+word
 end
 
 
