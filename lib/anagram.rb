@@ -8,10 +8,10 @@ def initialize(word)
 end
 
 def match(word_array)
-word_array.select {|word| word_array.split("") == @word(" ").split}
+word_array.select {|word| word.split("") == @word(" ").split}
   end
 
-  
+
 end
 
 #if word.split("").sort == @word.split.sort
