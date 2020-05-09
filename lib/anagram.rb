@@ -9,7 +9,7 @@ end
 
 def match(word)
 word.each do |word|
-word.split(" ") 
+word.split(",") 
 #if word.split("").sort == @word.split.sort
 # sort == word.sort
 #   #end
