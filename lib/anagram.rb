@@ -5,8 +5,8 @@ def initialize(word)
 @word = word
 end
 
-def match
-@word = self.split(" ")
+def match(word)
+word = self.split(" ")
 #if letter_array.sort == word.sort
   #end
   letter_array
