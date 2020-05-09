@@ -9,7 +9,8 @@ end
 
 def match(word)
 word.collect do |word|
-word.split.sort 
+if word.split == @word.split
+  true 
 
 #if word.split("").sort == @word.split.sort
 # sort == word.sort
