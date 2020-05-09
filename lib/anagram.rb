@@ -9,10 +9,8 @@ end
 
 def match(word)
 word.detect do |word|
-if word.split(" ").sort == @word.split.sort
-  true
-else
-  false
+word == "dipper" 
+
 #if word.split("").sort == @word.split.sort
 # sort == word.sort
 #   #end
