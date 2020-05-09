@@ -12,13 +12,14 @@ word.each do |word|
 if word.split(" ").sort == @word.split.sort
   true
 else
-  false 
+  false
 #if word.split("").sort == @word.split.sort
 # sort == word.sort
 #   #end
 # end
     end
   end
+end 
 
 end
 
