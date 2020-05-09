@@ -8,6 +8,10 @@ def initialize(word)
 end
 
 def match(word)
+word.each do |word|
+word.split(" ") 
+end
+
 if word.split("").sort == @word.split.sort
 word.split.sort
 # sort == word.sort
