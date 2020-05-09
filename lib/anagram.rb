@@ -10,7 +10,7 @@ end
 def match(word)
 word.collect do |word|
 if word.split == @word.split
-  true 
+  true
 
 #if word.split("").sort == @word.split.sort
 # sort == word.sort
@@ -18,7 +18,7 @@ if word.split == @word.split
 # end
     end
   end
-end
+
 
 
 # Your code goes here!
