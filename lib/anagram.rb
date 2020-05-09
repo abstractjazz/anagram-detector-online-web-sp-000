@@ -6,7 +6,7 @@ def initialize(word)
 end
 
 def match(word)
-@word.each {|word| word.split(" ")}
+@word.each do |word| word.split(" ")
 end
 
 end
