@@ -19,7 +19,7 @@ if word.split == @word.split
     end
   end
 end
+end
 end 
-
 
 # Your code goes here!
