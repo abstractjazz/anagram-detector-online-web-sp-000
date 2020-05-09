@@ -5,11 +5,11 @@ def initialize(word)
 @word = word
 end
 
-def match(word)
-letter_array = @word.split(" ")
+def self.match(word)
+letter_array = self.split(" ")
 #if letter_array.sort == word.sort
   #end
-  letter_array
+
 end
 end
 
