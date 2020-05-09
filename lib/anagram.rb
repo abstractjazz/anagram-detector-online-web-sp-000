@@ -6,11 +6,12 @@ def initialize(word)
 end
 
 def match(word)
-  @word.split(" ")
-#if letter_array.sort == word.sort
-  #end
-end
-
+if @word.split.sort == word.split.sort
+word.split.sort
+# sort == word.sort
+#   #end
+# end
+  end
 end
 
 
