@@ -8,7 +8,7 @@ def initialize(word)
 end
 
 def match(word)
-if word.split.sort == @word.split.sort
+if word.split("").sort == @word.split.sort
 word.split.sort
 # sort == word.sort
 #   #end
