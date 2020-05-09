@@ -1,3 +1,5 @@
+require 'pry'
+
 class Anagram
 attr_accessor :word
 
@@ -13,6 +15,7 @@ word.split.sort
 # end
     end
   end
+  binding.pry
 end
 
 
