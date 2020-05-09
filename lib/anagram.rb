@@ -8,8 +8,8 @@ def initialize(word)
 end
 
 def match(word)
-word.detect do |word|
-word == "dipper"
+word.collect do |word|
+word.split.sort 
 
 #if word.split("").sort == @word.split.sort
 # sort == word.sort
@@ -17,7 +17,6 @@ word == "dipper"
 # end
     end
   end
-
 end
 
 
